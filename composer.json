@@ -1,8 +1,8 @@
 {
-    "name": "astcode/astcode-core-phpmvcframework",
+    "name": "astcode/core",
     "autoload": {
         "psr-4": {
-            "Astcode\\AstcodeCorePhpmvcframework\\": "src/"
+            "Astcode\\Core\\": "src/"
         }
     },
     "authors": [
