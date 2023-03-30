@@ -1,0 +1,15 @@
+{
+    "name": "astcode/astcode-core-phpmvcframework",
+    "autoload": {
+        "psr-4": {
+            "Astcode\\AstcodeCorePhpmvcframework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aaron Thomas",
+            "email": "astcode@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
