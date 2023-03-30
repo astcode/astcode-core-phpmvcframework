@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Core\DB;
+namespace Astcode\Core\DB;
 
-use App\Core\Model;
-use App\Core\Application;
+use Astcode\Core\Model;
+use Astcode\Core\Application;
 use App\Models\User;
 
 abstract class DbModel extends Model

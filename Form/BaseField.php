@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core\Form;
+namespace Astcode\Core\Form;
 
-use App\Core\Model;
+use Astcode\Core\Model;
 
 abstract class BaseField
 {
@@ -15,7 +15,7 @@ abstract class BaseField
         /**
      * Field constructor.
      *
-     * @param App\Core\Model $model
+     * @param Astcode\Core\Model $model
      * @param String $attribute
      */
     public function __construct($model, $attribute)

@@ -11,5 +11,7 @@
             "email": "astcode@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "astcode/astcode-core-phpmvcframework": "dev-master"
+    }
 }

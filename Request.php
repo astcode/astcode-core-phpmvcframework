@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Core;
+namespace Astcode\Core;
 
 /**
  * Class Request
- * @package App\Core
+ * @package Astcode\Core
  * @author Aaron Thomas <aaron@aaronsthomas.com>
  */
 class Request

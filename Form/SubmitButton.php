@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Core\Form;
+namespace Astcode\Core\Form;
 
-use App\Core\Model;
-use App\Core\Form\BaseField;
+use Astcode\Core\Model;
+use Astcode\Core\Form\BaseField;
 
 class SubmitButton extends BaseField
 {

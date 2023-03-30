@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Core;
+namespace Astcode\Core;
 
-use App\Core\Exception\NotFoundException;
-use App\Core\Request;
-use App\Core\Response;
+use Astcode\Core\Exception\NotFoundException;
+use Astcode\Core\Request;
+use Astcode\Core\Response;
 
 /**
  * @author Aaron Thomas <aaron@aaronsthomas.com>
- * @package App\Core
+ * @package Astcode\Core
  */
 class Router
 {
@@ -51,7 +51,7 @@ class Router
         }
 
         if (is_array($callback)) {
-            /** @var \App\Core\Controller $controller */
+            /** @var \Astcode\Core\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

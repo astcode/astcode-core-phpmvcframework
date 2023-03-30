@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace Astcode\Core;
 
-use App\Core\Application;
+use Astcode\Core\Application;
 
 abstract class Model
 {

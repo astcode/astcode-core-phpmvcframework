@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core\DB;
+namespace Astcode\Core\DB;
 
-use App\Core\Application;
+use Astcode\Core\Application;
 
 class Database
 {

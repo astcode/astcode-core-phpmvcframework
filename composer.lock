@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d45e9008f34a7a7aaa0e9ec865180e5d",
+    "packages": [
+        {
+            "name": "astcode/astcode-core-phpmvcframework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/astcode/astcode-core-phpmvcframework.git",
+                "reference": "0f078b776025ad8206a56dcd516716c12c2eb4fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/astcode/astcode-core-phpmvcframework/zipball/0f078b776025ad8206a56dcd516716c12c2eb4fa",
+                "reference": "0f078b776025ad8206a56dcd516716c12c2eb4fa",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Astcode\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Aaron Thomas",
+                    "email": "astcode@users.noreply.github.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/astcode/astcode-core-phpmvcframework/issues",
+                "source": "https://github.com/astcode/astcode-core-phpmvcframework/tree/v1.0.1"
+            },
+            "time": "2023-03-30T02:53:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "astcode/astcode-core-phpmvcframework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

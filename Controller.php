@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace Astcode\Core;
 
-use App\Core\Middlewares\BaseMiddleware;
+use Astcode\Core\Middlewares\BaseMiddleware;
 
 class Controller
 {
@@ -10,7 +10,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \App\Core\Middlewares\BaseMiddleware[]
+     * @var \Astcode\Core\Middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -30,7 +30,7 @@ class Controller
     }
 
     /**
-     * @return \App\Core\Middlewares\BaseMiddleware[]
+     * @return \Astcode\Core\Middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

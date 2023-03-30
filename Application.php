@@ -1,17 +1,17 @@
 <?php
 
-namespace App\Core;
+namespace Astcode\Core;
 
 use App\Models\User;
 
-use App\Core\Request;
-use App\Core\DB\DbModel;
-use App\Core\DB\Database;
+use Astcode\Core\Request;
+use Astcode\Core\DB\DbModel;
+use Astcode\Core\DB\Database;
 
 // namespace App\Application;
 /**
  * @author Aaron Thomas <aaron@aaronsthomas.com>
- * @package App\Core
+ * @package Astcode\Core
  */
 class Application
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace Astcode\Core;
 
-use App\Core\DB\DbModel;
+use Astcode\Core\DB\DbModel;
 
 abstract class UserModel extends DbModel
 {

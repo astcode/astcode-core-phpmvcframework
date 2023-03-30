@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Core\Form;
+namespace Astcode\Core\Form;
 
-use App\Core\Form\Field;
-use App\Core\Form\BaseField;
-use App\Core\Form\SubmitButton;
-use App\Core\Form\InputField;
-use App\Core\Form\TextAreaField;
+use Astcode\Core\Form\Field;
+use Astcode\Core\Form\BaseField;
+use Astcode\Core\Form\SubmitButton;
+use Astcode\Core\Form\InputField;
+use Astcode\Core\Form\TextAreaField;
 
 
 class Form
